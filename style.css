@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(25, 42, 42);
+    height: auto;
+}
+
+.main {
+    background-color: azure;
+    height: 600px;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 300px;
+}
+
+.textHeader {
+    font-size: 60px;
+}
+
+.ulTopNav {
+    padding: 15px 20px;
+}
+
+.ilTopNav {
+ display:inline-block;
+ padding: 20px 30px;   
+ border: solid black 2px;
+ border-radius: 30%;
+ background-color: antiquewhite;
+}
+
+.ilTopNav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
